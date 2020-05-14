@@ -1,0 +1,150 @@
+body{
+    background-image: url("bg.png");
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+   
+.images{
+    width: 650px;
+    position: relative;
+    top: -250px;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.header-text{
+    font-size: 130pt;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: -390px;
+    text-align: center;
+    letter-spacing: -18px;
+}
+
+.text{
+    margin: auto;
+    width: 25%;
+    border: 5px;
+    padding: 10px;
+    font-size: 17px;
+    text-align: left;
+    position: relative;
+    bottom: 490px;
+    left: 50px;
+    color: white;
+}
+
+.headline{
+    margin: auto;
+    width: 25%;
+    border: 5px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    bottom: 430px;
+    left: 50px;
+    color: white;
+}
+
+.navibereich{
+/*display: inline block;*/
+background-color: black;
+position: fixed;
+right: 0;
+top: 0;
+border-radius: 10px 10px 10px 10px;
+padding: 5px 10px 5px 5px;
+}
+
+.circle{
+    width: 800px;
+    margin: -10px auto;
+}
+
+.navibereich a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    padding: 5px 10px;
+}
+
+a:hover{
+color: rgb(223, 140, 240);
+}
+
+/* ab hier ausschließlich About Me */
+
+#portrait{
+position: relative;
+top: -300px;
+}
+
+/* ab hier ausschließlich Contact */
+
+#kontakt{
+    color: rgb(223, 140, 240);
+    font-weight: bold;
+    position: relative;
+    text-align: left;
+    margin-top: -300px;
+    margin-left: 210px;
+}
+
+.formular{
+    background: gray;
+    font-size: 9pt;
+    color: white;
+    width: 200px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 210px;
+    text-align: left;
+}
+
+.datenschutz{
+    font-size: 9pt;
+    color: gray;
+    position: relative;
+    text-align: left;
+    margin-left: 210px;
+}
+
+.absenden{
+    font-size: 9pt;
+    color: white;
+    background: gray;
+    width: 55px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 210px;
+}
+
+.social{
+    position: absolute;
+    top: 340px;
+    margin-left: 48.5%;
+    z-index: 9999;
+}
+
+.social:hover{
+    opacity: 0.5;
+}
+
+a.active{
+    color: rgb(223, 140, 240);
+    text-decoration: underline;
+}
+
+a.activepage{
+    color: rgb(223, 140, 240);
+    font-weight: bolder;
+}
+
+#navi1{
+border-right: solid 1px white;
+}
+
+#navi2{
+border-right: solid 1px white;
+}
