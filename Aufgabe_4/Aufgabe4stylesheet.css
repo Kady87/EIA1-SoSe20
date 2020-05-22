@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.button{
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+}
+.button1{
+    background-color: rgb(204, 149, 204);
+}
+
+.button2{
+    background-color: rgb(158, 102, 184);
+}
+
+.button3{
+    background-color: rgb(207, 46, 172);
+}
+
+.button4{
+    background-color: rgb(112, 32, 178);
+}
+
+.button5{
+    background-color: rgb(119, 156, 204);
+}
+
+.button:hover{
+    opacity: 0.5;
+}
+
+h2{
+    margin-top:50px;
+    margin-bottom: 40px;
+}
