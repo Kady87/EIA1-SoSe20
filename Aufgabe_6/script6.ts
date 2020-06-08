@@ -27,10 +27,10 @@ document.querySelector(".europa").addEventListener("click", clickEU);
     function clickEU() {
 
     document.querySelector("#h1").innerHTML = "Carbon Dioxide Emissions in Europe";
-    document.querySelector("#emission2018").innerHTML = europa;
+    document.querySelector("#emission2018").innerHTML = europa.toString() + "Kg CO2";
     document.querySelector("#Welt").innerHTML = EUWelt.toFixed(2) + "%";
     document.querySelector("#prozent").innerHTML = EUveraenderungprozent.toFixed(2) + "%";
-    document.querySelector("#veraenderung").innerHTML = EUveraenderung.toFixed(2);
+    document.querySelector("#veraenderung").innerHTML = EUveraenderung.toFixed(2) + "CO2";
     document.querySelector(".chart").setAttribute("style", `height:${EUWelt} + px`); 
 console.log('Die Emission von Europa ist:' + europa + 'kg CO2 ');
 console.log('Relativ zur Gesamtemission der Welt verursacht Europa damit:' + EUWelt + '% ');
@@ -50,10 +50,10 @@ document.querySelector(".northamerica").addEventListener("click", clickNA);
     function clickNA() {
 
         document.getElementById("h1").innerHTML = "Carbon Dioxide Emissions in Northamerica";
-        document.getElementById("emission2018").innerHTML = nordamerika;
+        document.getElementById("emission2018").innerHTML = nordamerika.toString() + "Kg CO2";
         document.getElementById("Welt").innerHTML = NAWelt.toFixed(2) + "%";
         document.getElementById("prozent").innerHTML = NAveraenderungprozent.toFixed(2) + "%";
-        document.getElementById("veraenderung").innerHTML = NAveraenderung.toFixed(2);
+        document.getElementById("veraenderung").innerHTML = NAveraenderung.toFixed(2) + "CO2";
         document.querySelector('.chart').setAttribute('style', 'height:' + NAWelt + 'px');
 console.log('Die Emission von Nordamerika ist:' + nordamerika + 'kg CO2 ');
 console.log('Relativ zur Gesamtemission der Welt verursacht Nordamerika damit:' + NAWelt + '% ');
@@ -73,10 +73,10 @@ document.querySelector(".africa").addEventListener("click", clickAF);
     function clickAF() {
 
         document.getElementById("h1").innerHTML = "Carbon Dioxide Emissions in Africa";
-        document.getElementById("emission2018").innerHTML = afrika;
+        document.getElementById("emission2018").innerHTML = afrika.toString() + "Kg CO2";
         document.getElementById("Welt").innerHTML = AFWelt.toFixed(2) + "%";
         document.getElementById("prozent").innerHTML = AFveraenderungprozent.toFixed(2) + "%";
-        document.getElementById("veraenderung").innerHTML = AFveraenderung.toFixed(2);
+        document.getElementById("veraenderung").innerHTML = AFveraenderung.toFixed(2) + "CO2";
         document.querySelector('.chart').setAttribute('style', 'height:' + AFWelt + 'px');
 console.log('Die Emission von Afrika ist:' + afrika + 'kg CO2 ');
 console.log('Relativ zur Gesamtemission der Welt verursacht Afrika damit:' + AFWelt + '% ');
@@ -96,10 +96,10 @@ document.querySelector(".asia").addEventListener("click", clickAS);
     function clickAS() {
 
         document.getElementById("h1").innerHTML = "Carbon Dioxide Emissions in Asia";
-        document.getElementById("emission2018").innerHTML = asien;
+        document.getElementById("emission2018").innerHTML = asien.toString() + "Kg CO2";
         document.getElementById("Welt").innerHTML = ASWelt.toFixed(2) + "%";
         document.getElementById("prozent").innerHTML = ASveraenderungprozent.toFixed(2) + "%";
-        document.getElementById("veraenderung").innerHTML = ASveraenderung.toFixed(2);
+        document.getElementById("veraenderung").innerHTML = ASveraenderung.toFixed(2) + "CO2";
         document.querySelector('.chart').setAttribute('style', 'height:' + ASWelt + 'px');
 console.log('Die Emission von Asien ist:' + asien + 'kg CO2 ');
 console.log('Relativ zur Gesamtemission der Welt verursacht Asien damit:' + ASWelt + '% ');
@@ -119,10 +119,10 @@ document.querySelector(".southamerica").addEventListener("click", clickSA);
     function clickSA() {
 
         document.getElementById("h1").innerHTML = "Carbon Dioxide Emissions in Southamerica";
-        document.getElementById("emission2018").innerHTML = suedamerika;
+        document.getElementById("emission2018").innerHTML = suedamerika.toString() + "Kg CO2";
         document.getElementById("Welt").innerHTML = SAWelt.toFixed(2) + "%";
         document.getElementById("prozent").innerHTML = SAveraenderungprozent.toFixed(2) + "%";
-        document.getElementById("veraenderung").innerHTML = SAveraenderung.toFixed(2);
+        document.getElementById("veraenderung").innerHTML = SAveraenderung.toFixed(2) + "CO2";
         document.querySelector('.chart').setAttribute('style', 'height:' + SAWelt + 'px');
 console.log('Die Emission von Südamerika ist:' + suedamerika + 'kg CO2 ');
 console.log('Relativ zur Gesamtemission der Welt verursacht Südamerika damit:' + SAWelt + '% ');
@@ -142,10 +142,10 @@ document.querySelector(".australia").addEventListener("click", clickAU);
     function clickAU() {
 
         document.getElementById("h1").innerHTML = "Carbon Dioxide Emissions in Australia";
-        document.getElementById("emission2018").innerHTML = australien;
+        document.getElementById("emission2018").innerHTML = australien.toString() + "Kg CO2";
         document.getElementById("Welt").innerHTML = AUWelt.toFixed(2) + "%";
         document.getElementById("prozent").innerHTML = AUveraenderungprozent.toFixed(2) + "%";
-        document.getElementById("veraenderung").innerHTML = AUveraenderung.toFixed(2);
+        document.getElementById("veraenderung").innerHTML = AUveraenderung.toFixed(2) + "CO2";
         document.querySelector('.chart').setAttribute('style', 'height:' + AUWelt + 'px');
 console.log('Die Emission von Australien ist:' + australien + 'kg CO2 ');
 console.log('Relativ zur Gesamtemission der Welt verursacht Australien damit:' + AUWelt + '% ');
