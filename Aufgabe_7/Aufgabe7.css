@@ -1,0 +1,33 @@
+button{
+    background-color:  #adeaee;
+    padding: 100px 100px;
+    font-size:20px;
+    height:50px;
+    border-radius:3px;
+
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+}
+
+
+button:hover{
+    background-color: #e6b1f3;
+}
+
+
+.sound{
+    volume: 
+}
+
+body{
+    text-align: center;
+    background: #be6cd3;
+    background: linear-gradient(to right, #80bcf3, #e482df);
+}
+
+
+#playbutton:hover{
+    background-color: #c575eb;
+  }
