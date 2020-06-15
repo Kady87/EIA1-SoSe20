@@ -1,17 +1,17 @@
 "use strict";
-var sound1 = new Audio('A.mp3');
-var sound2 = new Audio('C.mp3');
-var sound3 = new Audio('F.mp3');
-var sound4 = new Audio('G.mp3');
-var sound5 = new Audio('hihat.mp3');
-var sound6 = new Audio('kick.mp3');
-var sound7 = new Audio('laugh-1.mp3');
-var sound8 = new Audio('laugh-2.mp3');
-var sound9 = new Audio('snare.mp3');
+var sound1:HTMLAudioElement = new Audio('A.mp3');
+var sound2:HTMLAudioElement = new Audio('C.mp3');
+var sound3:HTMLAudioElement = new Audio('F.mp3');
+var sound4:HTMLAudioElement = new Audio('G.mp3');
+var sound5:HTMLAudioElement = new Audio('hihat.mp3');
+var sound6:HTMLAudioElement = new Audio('kick.mp3');
+var sound7:HTMLAudioElement = new Audio('laugh-1.mp3');
+var sound8:HTMLAudioElement = new Audio('laugh-2.mp3');
+var sound9:HTMLAudioElement = new Audio('snare.mp3');
 
-var allsounds = [sound1, sound2, sound3, sound4, sound5, sound6, sound7, sound8, sound9];
+var allsounds:HTMLAudioElement = [sound1, sound2, sound3, sound4, sound5, sound6, sound7, sound8, sound9];
 
-function clickbutton(x) {
+function clickbutton(x:number) {
     allsounds[x].play();
 }
 //wiederholung
