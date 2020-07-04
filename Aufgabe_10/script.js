@@ -1,15 +1,17 @@
 "use strict";
+
+var todosText = ["Lorem", "Ipsum", "Dolor"];
+var todosChecked = [true, false, false];
+var todos = [
+
 var todolist = [{
-        text: "Lorem",
-        checked: true
+        text: "Lorem", isChecked: true
     },
     {
-        text: "Ipsum",
-        checked: true
+        text: "Ipsum", isChecked: false
     },
     {
-        text: "Dolor",
-        checked: true
+        text: "Dolor", isChecked: false
     }
 ];
 var inputDOMElement;
