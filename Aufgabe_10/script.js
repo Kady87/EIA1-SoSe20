@@ -1,8 +1,8 @@
 "use strict";
 
-var todosText = ["Lorem", "Ipsum", "Dolor"];
-var todosChecked = [true, false, false];
-var todos = [
+//var todosText = ["Lorem", "Ipsum", "Dolor"];
+//var todosChecked = [true, false, false];
+//var todos = [
 
 var todolist = [{
         text: "Lorem", isChecked: true
