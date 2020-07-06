@@ -18,10 +18,10 @@ var todolist = [{
     }
 ];
 
-var inputDOMElement;
-var addButtonDOMElement;
-var todosDOMElement;
-var counterDOMElement;
+var inputDOMElement: HTMLInputElement;
+var addButtonDOMElement: HTMLElement;
+var todosDOMElement: HTMLElement;
+var counterDOMElement: HTMLElement;
 
 window.addEventListener("load", function () {
     
@@ -39,7 +39,7 @@ function drawListToDOM() {
     todosDOMElement.innerHTML = "";
     var _loop_1 = function (index) {
         
-        var todo = document.createElement("div");
+        var todo: HTMLElement = document.createElement("div");
         todo.classList.add("todo");
         
         todo.innerHTML = "<span class='check " + todolist[index].checked + "'><i class='fas fa-check'></i></span>"
@@ -64,8 +64,8 @@ function drawListToDOM() {
     updateCounter();
 }
 function updateCounter() {
-    var opentasks = 0;
-    var donetasks = 0;
+    var opentasks: number = 0;
+    var donetasks: number = 0;
     for (let index = 0; index < todolist.length; index++) {
         if (todolist[index].checked == true) {
             donetasks++;
@@ -91,14 +91,14 @@ function addTodo() {
     }
 }
 
-function toggleCheckState(index) {
+function toggleCheckState(index: number) {
     
     todolist[index].checked = !todolist[index].checked;
     
     drawListToDOM();
 }
 
-function deleteTodo(index) {
+function deleteTodo(index: number) {
     
     todolist.splice(index, 1);
     
